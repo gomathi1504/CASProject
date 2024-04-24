@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T14:26:51 IST" name="Suite" finished-at="2024-04-02T14:27:40 IST" duration-ms="49652">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T14:26:51 IST" name="Test" finished-at="2024-04-02T14:27:40 IST" duration-ms="49652">
+      <class name="testCases.TC003_ValidateDefaultLanguageAndCountry">
+        <test-method signature="validateLanguageAndCountry()[pri:0, instance:testCases.TC003_ValidateDefaultLanguageAndCountry@273444fe]" started-at="2024-04-02T14:27:16 IST" name="validateLanguageAndCountry" finished-at="2024-04-02T14:27:17 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLanguageAndCountry -->
+      </class> <!-- testCases.TC003_ValidateDefaultLanguageAndCountry -->
+      <class name="testCases.TC005_ValidateGSDDetails">
+        <test-method signature="validateGsdDetails(java.lang.String)[pri:0, instance:testCases.TC005_ValidateGSDDetails@1a75e76a]" started-at="2024-04-02T14:27:17 IST" name="validateGsdDetails" finished-at="2024-04-02T14:27:29 IST" duration-ms="11927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGsdDetails -->
+      </class> <!-- testCases.TC005_ValidateGSDDetails -->
+      <class name="testCases.TC004_ValidateDropdownDetails">
+        <test-method signature="validateLanguageList()[pri:0, instance:testCases.TC004_ValidateDropdownDetails@33bc72d1]" started-at="2024-04-02T14:27:17 IST" name="validateLanguageList" finished-at="2024-04-02T14:27:17 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLanguageList -->
+      </class> <!-- testCases.TC004_ValidateDropdownDetails -->
+      <class name="testCases.TC001_ValidateUserInfo">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.TC001_ValidateUserInfo@68c9133c]" started-at="2024-04-02T14:26:51 IST" name="launchBrowser" finished-at="2024-04-02T14:26:58 IST" duration-ms="7108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUser()[pri:0, instance:testCases.TC001_ValidateUserInfo@68c9133c]" started-at="2024-04-02T14:26:58 IST" name="validateUser" finished-at="2024-04-02T14:27:01 IST" duration-ms="2892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_ValidateUserInfo@68c9133c]" started-at="2024-04-02T14:27:29 IST" name="tearDown" finished-at="2024-04-02T14:27:40 IST" duration-ms="11089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_ValidateUserInfo -->
+      <class name="testCases.TC002_ValidateWelcomeMessage">
+        <test-method signature="welcomeMsgValidation(java.lang.String)[pri:0, instance:testCases.TC002_ValidateWelcomeMessage@16eb3ea3]" started-at="2024-04-02T14:27:01 IST" name="welcomeMsgValidation" finished-at="2024-04-02T14:27:16 IST" duration-ms="15229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeMsgValidation -->
+      </class> <!-- testCases.TC002_ValidateWelcomeMessage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
